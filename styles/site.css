@@ -99,6 +99,10 @@ h4 span.SpecialChar {
   vertical-align: -3px;
 }
 
+h5 span.SpecialChar {
+  font-family: arial, sans-serif;
+}
+
 .CenterText {
   text-align: center;
 }
