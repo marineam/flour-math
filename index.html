@@ -52,7 +52,11 @@
                 <h5>Desired End Product</h5>
                 <div class="LabelFieldRow">
                   <span class="label">Target Flour Amount:</span>
-                  <input id="target5" type="text" value="100"> grams
+                  <input id="target5" type="text" value="100">
+                  <select id="targetunit">
+                    <option>grams</option>
+                    <option>cups</option>
+                  </select>
                 </div>
                 <div class="LabelFieldRow">
                   <span class="label">Target Protein/Gluten:</span>
@@ -71,6 +75,17 @@
                 </div>
               </div>
             </div>
+
+            <hr />
+
+            <h4><span class="bigH4">Convert</span> Recipe Cups To Grams</h4>
+
+            <h5>Your Flour</h5>
+            <div class="LabelConversion">
+              <span class="label">Grams per Cup:</span>
+              <input id="targetgramspercup" type="text" value="125"> grams
+            </div>
+
           </form>
         </div>
       </div>
